@@ -1,7 +1,7 @@
 #pragma once
 #include "Card.h"
 
-class CardHand() {
+class CardHand {
 private:
 	int handStrength;
 	Card card1;

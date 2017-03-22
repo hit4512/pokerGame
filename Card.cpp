@@ -1,21 +1,20 @@
 #include "Card.h"
 #include <string>
 
-Card::Card(char s, int v) {
+Card::Card(Suit s, int v) {
 	value = v;
 	suit = s;
-
 }
 
 int Card::getValue() {
 	return value;
 }
 
-int Card::getSuit() {
+Suit Card::getSuit() {
 	return suit;
 }
 
-void Card::setSuit(char s) {
+void Card::setSuit(Suit s) {
 	suit = s;
 }
 
