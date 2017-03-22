@@ -1,4 +1,5 @@
 #include "Player.h"
+#include "CardHand.h"
 
 Player::Player(bool gamb, bool skill, bool newdrunk, int newchip, bool newDeal, bool newinhand, int pos, bool ishum, bool isAll, int susp, bool firstAct) {
 	gambler = gamb;
@@ -101,3 +102,5 @@ void Player::setSuspicionLevel(int t) {
 void Player::setFirstToAct(bool t) {
 	firstToAct = t;
 }
+
+void

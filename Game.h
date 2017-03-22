@@ -54,5 +54,8 @@ public:
 	void setBetAmount(int newBetAmount);
 	void setPlayersInHand(int newPlayersHand);
 
+	void startGame();
+	void runBetLoop(firstToAct);
+
 };
 

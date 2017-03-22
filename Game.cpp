@@ -18,6 +18,10 @@
 
 	}
 
+	void Game::startGame() {
+
+	}
+
 	int Game::getNumPlayers(){
 		return numPlayers;
 	}
@@ -128,8 +132,8 @@
 	
 	void Game::setPlayersInHand(int newPlayersInHand){
 		playersInHand = newPlayersInHand;
-	}
-		
+	}			
+
 	Game::~Game()
 	{
 		

@@ -19,6 +19,7 @@ public:
 	void setSuit(char s);
 	char convertFaceCards(char s);
 	Card();
+	~Card();
 
 };
 

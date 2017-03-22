@@ -1,4 +1,6 @@
 #pragma once
+#include "CardHand.h"
+
 class Player {
 public:
 	bool isGambler();
@@ -38,7 +40,7 @@ private:
 	int position;
 	bool human;
 	bool allIn;
-	// CardHand cardHand;
+	CardHand cardHand;
 	int suspicionLevel;
 	bool firstToAct;
 
