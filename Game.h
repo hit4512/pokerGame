@@ -39,20 +39,20 @@ public:
 	Game(int, int, int, int, int, int, int, int, int, int, int, int, int);
 	~Game();
 
-	void setNumPlayers();
-	void setStartingChips();
-	void setBigBlind();
-	void setSmallBlind();
-	void setPhase();
-	void setFirstToAct();
-	void setDealerPosition();
-	void setPreviousBet();
-	void setPot();
-	void setPositionToAct();
-	void setMinRaise();
-	void setMinBet();
-	void setBetAmount();
-	void setPlayersInHand();
+	void setNumPlayers(int newNumPlayers);
+	void setStartingChips(int newStartingChips);
+	void setBigBlind(int newBigBlind);
+	void setSmallBlind(int newSmallBlind);
+	void setPhase(int newPhase);
+	void setFirstToAct(int newFirstAct);
+	void setDealerPosition(int newDealer);
+	void setPreviousBet(int newPrevBet);
+	void setPot(int newPot);
+	void setPositionToAct(int newPositionAct);
+	void setMinRaise(int newMinRaise);
+	void setMinBet(int newMinBet);
+	void setBetAmount(int newBetAmount);
+	void setPlayersInHand(int newPlayersHand);
 
 };
 
