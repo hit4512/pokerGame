@@ -5,7 +5,7 @@
 
 class Deck {
 private:
-	vector<Card> deck;
+	vector <Card> deck;
 
 public:
 	Deck();

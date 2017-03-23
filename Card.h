@@ -1,21 +1,25 @@
 #pragma once
 #include <string>
+#include <vector>
 
-enum Suit{HEARTS, DIAMONDS, SPADES, CLUBS};
+enum SUIT{HEARTS, DIAMONDS, SPADES, CLUBS};
 
 class Card {
 private:
 	int value;
-	char suit;
+	SUIT suit;
+	vector<Card> deck = new vector();
 
 public:
 	int getValue();
-	Suit getSuit();
+	SUIT getSuit();
 	void setValue(int v);
-	void setSuit(Suit s);
-	char convertFaceCards(Suit s);
-	Card(Suit, int);
-	~Card();
-
+	void setSuit(SUIT s);
+	char convertFaceCards(int v);
+	Card(SUIT s, int v);
+	Card();
+	//string toString();
+	void createDeck();
+	int main();
 };
 
